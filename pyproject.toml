@@ -1,0 +1,20 @@
+[project]
+name = "ghostwriter-bot"
+version = "0.1.0"
+description = "Telegram bot stylizes posts for Alfa Index"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram==3.4.1",
+    "httpx==0.26.0",
+    "beautifulsoup4==4.12.3",
+    "openai==1.55.3",
+    "python-dotenv==1.0.1"
+]
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
