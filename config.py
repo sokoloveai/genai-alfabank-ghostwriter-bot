@@ -1,3 +1,3 @@
-MODEL_NAME = "gpt-4o-mini"
-TEMPERATURE = 0.75
+MODEL_NAME = "gpt-4.1"
+TEMPERATURE = 1
 TOP_P = 0.9
